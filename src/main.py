@@ -6,7 +6,7 @@ class Room:
         self.price = price
 
     def __str__(self):
-        return f"Room {self.number} ({self.room_type}) - ${self.price}/night"
+        return f'Room {self.number} ({self.room_type}) - ${self.price}/night'
 
 
 class Hotel:
@@ -22,7 +22,7 @@ class Hotel:
         return self.rooms
 
     def __str__(self):
-        return f"{self.name} in {self.city} - {len(self.rooms)} rooms"
+        return f'{self.name} in {self.city} - {len(self.rooms)} rooms'
 
 
 class HotelNetwork:
